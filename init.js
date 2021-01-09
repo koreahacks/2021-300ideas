@@ -1,11 +1,10 @@
+import dotenv from "dotenv";
 import app from "./app";
 
-const port = 3000;
+dotenv.config();
 
-app.get("/", (req, res) => {
-  res.send("Hello World!");
-});
+const PORT = process.env.PORT;
 
-app.listen(port, () => {
-  console.log(`listening at http://localhost:${port}`);
+app.listen(PORT, () => {
+  console.log(`listening at http://localhost:${PORT}`);
 });
