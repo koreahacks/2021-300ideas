@@ -8,8 +8,8 @@ const SEARCH = "/search";
 //  Users
 const USERS = "/users";
 const USER_DETAIL = "/:id";
-const EDIT_PROFILE = "/edit-profile";
 const MY_PAGE = "/my-page";
+const EDIT_PROFILE = "/edit-profile";
 
 // Recipe
 const RECIPES = "/recipes";
@@ -26,8 +26,8 @@ const routes = {
   search: SEARCH,
   users: USERS,
   userDetail: USER_DETAIL,
-  editProfile: EDIT_PROFILE,
   myPage: MY_PAGE,
+  editProfile: EDIT_PROFILE,
   recipes: RECIPES,
   upload: UPLOAD,
   recipeDetail: RECIPE_DETAIL,

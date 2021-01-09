@@ -28,6 +28,7 @@
     "mongoose": "^5.11.11",
     "morgan": "^1.10.0",
     "node-sass": "^5.0.0",
+    "pug": "^3.0.0",
     "webpack": "^5.12.1",
     "webpack-cli": "^4.3.1"
   },
