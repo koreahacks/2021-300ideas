@@ -1,2 +1,11 @@
 header.header
-    h3 이것은 헤더다
+    .header__column
+        |menu icon
+    .header__column
+        form(action=routes.search, method="get")
+            span icon
+            input(type="text", placeholder="검색어를 입력하세요!", name="term")
+    .header__column
+        span homeicon
+
+        
